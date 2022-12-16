@@ -1,0 +1,39 @@
+.div1{ /*div per fer la caixa blava en posicio absolut*/
+    background-color: lightblue;
+    width: 160px;
+    height: 120px;
+    margin-top: 40px;
+    margin-left: 20px;
+    z-index: 2;
+    position: absolute;
+ 
+}
+
+.div2{ /*div per fer la caixa groga en posicio relative*/
+    background-color: yellow;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.div3{ /*div per fer la caixa vermella en posicio absolute*/
+    background-color: red;
+    width: 160px;
+    height: 120px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 1;
+    top: 140px;
+   
+}
+
+.div4{ /*div per fer la caixa verd en posicio relative*/
+    background-color: green;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 100px;
+    top: 60px;
+}
