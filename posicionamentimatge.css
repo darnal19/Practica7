@@ -1,0 +1,26 @@
+.container{ /*Div pare que es el contenidor dels 2 divs fills*/
+        position:relative;
+}
+
+.center{ /*div fill de container que representa al text 2*/
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+img { /*Imatge de fons*/
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+  }
+
+  .bottomleft{ /*div fill de container que representa al text 1*/
+        position: absolute;
+        top: 90%;
+        text-align: center;
+        font-size: 18px;
+        left: 2%;
+        
+  }
